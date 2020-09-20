@@ -6,12 +6,9 @@ using namespace std;
 
 int main ()
 {
-    regex pattern("7");
+  string s = "here";
 
-    cout 
-        << "\n"
-        << regex_replace( "77", pattern, "") 
-        << "\n";
+  cout << s[0];
 
   return 0;
 }

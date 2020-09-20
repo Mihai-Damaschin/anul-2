@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d761dffc-a813-4ecb-863b-01fa3f3164e8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/laborator_1/prob_1.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/laborator_1/prob_2.py" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/my/laborator_1/prob_34.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my/laborator_1/prob_36.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my/laborator_1/prob_37.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my/laborator_1/prob_40.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/my/laborator_1/prob_42.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M_Dumitru/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/M_Dumitru/a.out" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/M_Dumitru/test.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/M_Dumitru/test.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/laborator_1/prob_1.py" beforeDir="false" afterPath="$PROJECT_DIR$/my/laborator_1/prob_1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/laborator_1/prob_2.py" beforeDir="false" afterPath="$PROJECT_DIR$/my/laborator_1/prob_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/my/laborator_1/prob_41.py" beforeDir="false" afterPath="$PROJECT_DIR$/my/laborator_1/prob_41.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +47,9 @@
       <option name="presentableId" value="Default" />
       <updated>1600537146646</updated>
       <workItem from="1600537147883" duration="3080000" />
+      <workItem from="1600596614018" duration="20000" />
+      <workItem from="1600596648507" duration="6219000" />
+      <workItem from="1600621087611" duration="5514000" />
     </task>
     <servers />
   </component>
@@ -45,6 +57,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="4559" y="242" width="482" height="630" key="#Python" timestamp="1600621281798">
+      <screen x="3840" y="0" width="1920" height="1080" />
+    </state>
+    <state x="4559" y="242" width="482" height="630" key="#Python/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@3840.0.1920.1080" timestamp="1600621281798" />
     <state x="4554" y="388" width="481" height="344" key="#com.intellij.tools.ToolEditorDialog" timestamp="1600538291434">
       <screen x="3840" y="0" width="1920" height="1080" />
     </state>
@@ -57,5 +73,9 @@
       <screen x="3840" y="0" width="1920" height="1080" />
     </state>
     <state x="4289" y="188" width="1022" height="737" key="SettingsEditor/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@3840.0.1920.1080" timestamp="1600539016886" />
+    <state x="4634" y="232" width="322" height="650" key="VCS.ChangeListViewerDialog" timestamp="1600628639671">
+      <screen x="3840" y="0" width="1920" height="1080" />
+    </state>
+    <state x="4634" y="232" width="322" height="650" key="VCS.ChangeListViewerDialog/3840.0.1920.1080/0.27.1920.1053/1920.0.1920.1080@3840.0.1920.1080" timestamp="1600628639671" />
   </component>
 </project>
