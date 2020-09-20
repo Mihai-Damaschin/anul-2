@@ -1,7 +1,7 @@
 mylist = []
 
 for x in range(ord('a'), ord('e') + 1):
-    print("Introdu numarul {}".format(chr(x)))
+    print("Introdu numarul {}: ".format(chr(x)), end="")
     mylist.append(int(input()))
 
 mylist.sort()
