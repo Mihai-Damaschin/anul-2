@@ -46,5 +46,3 @@ print("P= ", end="")
 p = input()
 
 print('Cel mai mare divizor comun este {}'.format(cmmdc(to_arabic(r), to_arabic(p))))
-
-print()
