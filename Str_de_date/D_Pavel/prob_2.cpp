@@ -109,3 +109,14 @@ num = f*g;
 
 cout<<"Produsul acestor numere ste egal cu : ";ra(x,r,num);
 }
+
+
+void who_got_friends(int a[100][100]):
+    cout << "Persoanele ce au cel putin doi prieteni sunt";
+    for (i = 0; i < n; i++)
+        int sum = 0;
+        for (j = 0; j < n; j++)
+            if a[i][j] == 1:
+                sum += 1
+        sum >= 2 and print("{} ".format(i + 1), end="")
+    print()
