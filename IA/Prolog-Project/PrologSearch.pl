@@ -1,11 +1,5 @@
 :- [queries].
 
-setSecure(1):-
-	Secure = secure.
-
-setSecure(2):-
-	Secure = unsecure.
-
 start_search:-
 	nl, write("Introduceti tema cautata"), nl,
 	read(QueryWord),
