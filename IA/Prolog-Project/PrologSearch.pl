@@ -11,15 +11,15 @@ start_search:-
 
 with_other_apps(QueryWord, 1) :-
 	write("Tipul cautarea trebuie sa fie:"), nl,
-	write("1. Privat"), nl,
-	write("2. Comun"), nl,
+	write("1. Privata"), nl,
+	write("2. Comuna"), nl,
 	read(Type),
 	with_country(QueryWord, secure, Type).
 
 with_other_apps(QueryWord, 2) :-
 	write("Tipul cautarea trebuie sa fie:"), nl,
-	write("1. Privat"), nl,
-	write("2. Comun"), nl,
+	write("1. Privata"), nl,
+	write("2. Comuna"), nl,
 	read(Type),
 	with_country(QueryWord, unsecure, Type).
 
