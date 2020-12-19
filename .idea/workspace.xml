@@ -20,14 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5bc7444d-4406-4530-9da1-849cb26b0427" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Str_de_date/my/evaluarea_1/prob_2.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Str_de_date/my/evaluarea_1/prob_3.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Str_de_date/my/evaluarea_1/prob_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Str_de_date/my/laborator_5/prob_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Str_de_date/my/laborator_5/types.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Str_de_date/my/laborator_6/prob_6.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Str_de_date/my/laborator_7/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Str_de_date/my/laborator_8/prob_4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Str_de_date/my/laborator_9/prob_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Str_de_date/my/test_final/prob_7.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Str_de_date/D_Pavel/a.out" beforeDir="false" afterPath="$PROJECT_DIR$/Str_de_date/D_Pavel/a.out" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Str_de_date/D_Pavel/prob_2.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Str_de_date/D_Pavel/prob_2.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Str_de_date/D_Pavel/here.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/Str_de_date/D_Pavel/here.cpp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Str_de_date/my/laborator_4/prob_41.py" beforeDir="false" afterPath="$PROJECT_DIR$/Str_de_date/my/laborator_4/prob_41.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Str_de_date/my/laborator_4/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/Str_de_date/D_Pavel/test.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +48,7 @@
   </component>
   <component name="JupyterTrust" id="b17575dc-04fe-4cbf-b7d3-9d454392c1df" />
   <component name="ProjectId" id="1iEutmkGKasTVbrpkXZ8hz058VL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="false" />
@@ -53,6 +58,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$USER_HOME$/Documents/WEB" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Console Colors" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -80,6 +92,21 @@
       <workItem from="1603612952130" duration="14703000" />
       <workItem from="1603909429199" duration="3701000" />
       <workItem from="1605205101000" duration="12000" />
+      <workItem from="1606637986050" duration="1790000" />
+      <workItem from="1606639796280" duration="3000" />
+      <workItem from="1606640160357" duration="4411000" />
+      <workItem from="1607802988791" duration="1011000" />
+      <workItem from="1607928640353" duration="7339000" />
+      <workItem from="1608050517674" duration="6155000" />
+      <workItem from="1608071727819" duration="3736000" />
+      <workItem from="1608147155008" duration="10460000" />
+      <workItem from="1608191349722" duration="286000" />
+      <workItem from="1608192391015" duration="14634000" />
+      <workItem from="1608236996797" duration="3213000" />
+      <workItem from="1608273735710" duration="3548000" />
+      <workItem from="1608280836468" duration="6135000" />
+      <workItem from="1608303950457" duration="1432000" />
+      <workItem from="1608371270334" duration="7214000" />
     </task>
     <servers />
   </component>
@@ -97,15 +124,5 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="589" y="221" width="732" height="644" key="#Inspections" timestamp="1602961023436">
-      <screen x="0" y="27" width="1920" height="1053" />
-    </state>
-    <state x="589" y="221" width="732" height="644" key="#Inspections/1920.0.1920.1080/0.27.1920.1053@0.27.1920.1053" timestamp="1602961023436" />
-    <state x="2663" y="311" width="424" height="491" key="FileChooserDialogImpl" timestamp="1601815766521">
-      <screen x="1920" y="0" width="1920" height="1080" />
-    </state>
-    <state x="2663" y="311" width="424" height="491" key="FileChooserDialogImpl/1920.0.1920.1080/0.27.1920.1053@1920.0.1920.1080" timestamp="1601815766521" />
   </component>
 </project>

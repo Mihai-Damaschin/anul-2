@@ -21,8 +21,8 @@ int main() {
         r=n%m;
     }
 
-    if(m==1)
-      cout<<"1";
-    else
-      cout<<"0";
+    if (m)
+      cout<<"Numerele sunt prime intre ele" << endl;
+    else 
+      cout<<"Numerele nu sunt prime intre ele" << endl;
 }

@@ -1,3 +1,13 @@
+def print_matrix(matrix, length):
+    for i in range(length):
+        for j in range(length):
+            if matrix[i][j] < 10:
+                print(" {} ".format(matrix[i][j]), end="")
+            else:
+                print("{} ".format(matrix[i][j]), end="")
+        print()
+
+
 n = int(input("n= "))
 
 a = ""
@@ -37,13 +47,7 @@ for k in range(n):
         i += 1
         a_counter += 1
 
-for i in range(n):
-    for j in range(n):
-        if b[i][j] < 10:
-            print(" {} ".format(b[i][j]), end="")
-        else:
-            print("{} ".format(b[i][j]), end="")
-    print()
+print_matrix(b, n)
 
 c = [[0 for j in range(n)] for i in range(n)]
 new_n = n - 1
@@ -57,11 +61,11 @@ for i in range(new_n, -1, -1):
 
 for iteration in range(new_n - 1, -1, -1):
     if iteration % 2 == 0:
-        for k  in range(iteration + 1):
+        for k in range(iteration + 1):
             j += 1
             c[i][j] = a[sorted_item]
             sorted_item += 1
-        for k  in range(iteration + 1):
+        for k in range(iteration + 1):
             i -= 1
             if i < 0:
                 i += 1
@@ -69,23 +73,17 @@ for iteration in range(new_n - 1, -1, -1):
             c[i][j] = a[sorted_item]
             sorted_item += 1
     if iteration % 2 == 1:
-        for k  in range(iteration + 1):
+        for k in range(iteration + 1):
             j -= 1
             if j < 0:
                 j += 1
                 break
             c[i][j] = a[sorted_item]
             sorted_item += 1
-        for k  in range(iteration + 1):
+        for k in range(iteration + 1):
             i += 1
             c[i][j] = a[sorted_item]
             sorted_item += 1
 
 print("\nc)")
-for i in range(n):
-    for j in range(n):
-        if c[i][j] < 10:
-            print(" {} ".format(c[i][j]), end="")
-        else:
-            print("{} ".format(c[i][j]), end="")
-    print()
+print_matrix(c, n)
