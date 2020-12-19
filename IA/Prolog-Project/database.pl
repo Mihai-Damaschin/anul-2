@@ -5,8 +5,13 @@
 % 4) language
 % 5) date
 
-search(secure, private, us, english, '24/11/2020', facebook).
-search(secure, private, ru, russian, '24/11/2020', ok).
-search(secure, private, us, english, '24/11/2020', instagram).
-search(secure, private, md, ro, '24/11/2020', 'Accident ieri la coltu satului').
+search(secure, private, us, english, null, facebook).
+search(secure, private, ru, russian, null, ok).
+search(secure, private, us, english, null, instagram).
+search(secure, private, md, ro, 24-11-2020, 'Accident ieri la coltu satului').
+search(secure, common, md, ro, 26-11-2020, 'Ora 15:30 live din parlament').
+
+
+search(unsecure, private, md, ro, -, droguri ).
+search(unsecure, private, md, ro, -, arme).
 

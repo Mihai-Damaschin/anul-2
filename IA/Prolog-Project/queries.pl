@@ -1,9 +1,18 @@
 :- [database].
 
+substring(X,S) :-
+	append(_,T,S) ,
+	append(X,_,T) ,
+	X \= [].
+
+get_var(Name):-
+	nb_getval(Name, Value),
+	write(Value).
+
 % queries
 
-get_by_security(Secure):-
-    write('Search-uri securizate:'), nl,
-	search(Secure, X, X1, X2, X3, SEARCH),
-	write(SEARCH), nl,
+get_search_results(Security, Other_apps, Country, Language, Date, QueryWord):-
+    write('Rezultatele cautarii:'), nl, nl,
+	search(Security, Other_apps, Country, Language, Date, QueryWord), nl,
+	write(QueryWord), nl,
 	fail.
