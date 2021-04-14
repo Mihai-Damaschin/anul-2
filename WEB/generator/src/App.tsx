@@ -21,7 +21,7 @@ const App = () => {
 
   const onFinish = (values: $Object) => {
     const listGenerator = (list: object = {}): {} => {
-      const newNumber = Math.floor(Math.random() * values.n);
+      const newNumber = Math.floor(Math.random() * values.n + 1);
 
       return Object.keys(list).length < values.m
         ? listGenerator({
